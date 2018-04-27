@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Galaxy.DirectoryService", "Galaxy.DirectoryService.csproj", "{A57794DD-FD1C-485D-923D-46C0400EFB5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Galaxy.Core", "..\Galaxy.Core\Galaxy.Core.csproj", "{FE19C7D6-2C9B-4C8F-8BB5-54C47696F9CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Galaxy.AuthService", "..\Galaxy.AuthService\Galaxy.AuthService.csproj", "{AB30F0A5-522A-4373-A01C-9A0E3D201B70}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{C58B1CF9-B325-49E3-AB08-BFA4C728371C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Framework", "Framework", "{00CEB7F6-EF3B-46EF-98C9-B3A6B22C12F3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A57794DD-FD1C-485D-923D-46C0400EFB5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A57794DD-FD1C-485D-923D-46C0400EFB5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A57794DD-FD1C-485D-923D-46C0400EFB5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A57794DD-FD1C-485D-923D-46C0400EFB5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE19C7D6-2C9B-4C8F-8BB5-54C47696F9CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE19C7D6-2C9B-4C8F-8BB5-54C47696F9CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE19C7D6-2C9B-4C8F-8BB5-54C47696F9CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE19C7D6-2C9B-4C8F-8BB5-54C47696F9CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB30F0A5-522A-4373-A01C-9A0E3D201B70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB30F0A5-522A-4373-A01C-9A0E3D201B70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB30F0A5-522A-4373-A01C-9A0E3D201B70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB30F0A5-522A-4373-A01C-9A0E3D201B70}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A57794DD-FD1C-485D-923D-46C0400EFB5F} = {C58B1CF9-B325-49E3-AB08-BFA4C728371C}
+		{FE19C7D6-2C9B-4C8F-8BB5-54C47696F9CC} = {00CEB7F6-EF3B-46EF-98C9-B3A6B22C12F3}
+		{AB30F0A5-522A-4373-A01C-9A0E3D201B70} = {C58B1CF9-B325-49E3-AB08-BFA4C728371C}
+	EndGlobalSection
+EndGlobal
